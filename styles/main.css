@@ -18,6 +18,17 @@ h1 {
   font-size: 2em;
 }
 
+#icon-container{
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin: 0rem 15rem 0rem 15rem;
+}
+
+#helper-text{
+  text-align: center;
+}
+
 #author {
   display: block;
   background: #fff;
@@ -53,6 +64,11 @@ article, header {
   margin: 3rem 15rem 0rem 15rem;
 }
 
+article {
+  text-align: left;
+  margin: 0rem 15rem 0rem 15rem;
+}
+
 p {
   line-height: 1.5;
   background: #fff;
@@ -63,6 +79,10 @@ p {
 
 .pictures {
   max-width: 60%;
+}
+
+-leaf {
+  max-width: 50px;
 }
 
 section {
